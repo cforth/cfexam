@@ -1,0 +1,38 @@
+body {
+  font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+pre {
+  font-size:160%;
+}
+
+ol {
+  font-size:160%;
+}
+
+a:link {
+  color:#0066CC;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#0066CC;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#FF4500;
+  text-decoration:underline;
+}
+
+div#main {
+  width:1000px;
+  margin:0 auto;
+  height:auto!important;
+  min-height:1000px;
+}
+
+.wordbreak {
+  word-wrap:break-word;
+  word-break:normal;
+}
