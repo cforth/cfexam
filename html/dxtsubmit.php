@@ -30,7 +30,7 @@
 
   } 
   
-  require 'header.php';
+  include '../includes/header.php';
 
 ?>
 
@@ -116,4 +116,6 @@
 
   <p><?php print($prompt) ?></p>
   
-<?php require 'footer.php'; ?>
+<?php
+  include '../includes/footer.php'; 
+?>

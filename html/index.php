@@ -1,7 +1,5 @@
 <?php 
-
-  require 'header.php';
-
+  include '../includes/header.php';
 ?>
 
   <h1>随机测验</h1>
@@ -11,6 +9,5 @@
 
   
 <?php
-  require 'footer.php'; 
-
+  include '../includes/footer.php'; 
 ?>
