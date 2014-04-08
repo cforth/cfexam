@@ -12,11 +12,11 @@
   <script>
 
     function watchdog() {
-      if (document.forms.dxttj.tm.value == "")  {
+      if (document.forms.tmtj.tm.value == "")  {
          alert("题目不能为空");
          return false;
       } 
-      else if (document.forms.dxttj.da.value == "") {
+      else if (document.forms.tmtj.da.value == "") {
         alert("答案不能为空");
         return false;
       }
@@ -28,7 +28,7 @@
 
   <h1>提交单选题</h1>
 
-  <form action="<?php  print($_SERVER["PHP_SELF"]) ?>" method="post" name="dxttj" onsubmit="return watchdog();">
+  <form action="<?php  print($_SERVER["PHP_SELF"]) ?>" method="post" name="tmtj" onsubmit="return watchdog();">
     <fieldset>
       <legend>单选题</legend>
     <table>
