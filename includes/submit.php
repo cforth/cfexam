@@ -1,7 +1,12 @@
 <?php
 
-  $prompt=" ";
+session_start();
+
+
+$prompt=" ";
   
+if(isset($_SESSION["authenticated"])) {
+
   if (($connection = mysql_connect("localhost", "cf", "123456")) === false)
     die("Could not connect to database");
 
@@ -24,6 +29,13 @@
       $prompt = "<br/>提交成功！";
     }
 
-  } 
+  }
+ 
+} else {
+    $host = $_SERVER["HTTP_HOST"];
+    $path = rtrim(dirname($_SERVER["PHP_SELF"]), "/\\");
+    header("Location: http://$host$path/index.php");
+    exit;
+}
 ?>
 

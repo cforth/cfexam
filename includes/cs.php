@@ -1,5 +1,9 @@
 <?php 
 
+session_start();
+
+if(isset($_SESSION["authenticated"])) {
+
   if (($connection = mysql_connect("localhost", "cf", "123456")) === false)
     die("Could not connect to database");
 
@@ -18,4 +22,11 @@
   else {
     print("<br/>题目获取失败！");
   }
+
+} else {
+    $host = $_SERVER["HTTP_HOST"];
+    $path = rtrim(dirname($_SERVER["PHP_SELF"]), "/\\");
+    header("Location: http://$host$path/index.php");
+    exit;
+}
 ?>
