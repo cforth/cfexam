@@ -30,7 +30,7 @@
 
   <form action="<?php  print($_SERVER["PHP_SELF"]) ?>" method="post" name="tmtj" onsubmit="return watchdog();">
     <fieldset>
-      <legend>单选题</legend>
+      <legend>多选题</legend>
     <table>
       <tr>
         <td>多选题题目:</td>
