@@ -17,6 +17,7 @@
   <h2>请登录用户！</h2>
   <ul>
     <li><a href="login.php">用户登陆</a></li>
+    <li><a href="register.php">用户注册</a></li>
   </ul>
   <?php } ?>
   
