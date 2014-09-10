@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/mystyle.css">
   <title>随机试题</title>
 </head> 
