@@ -3,9 +3,9 @@ cfexam
 
 试题练习系统
 
-1. 将试题数据库导入MySQL中。
+1. 将试题数据库导入MySQL中。[数据库脚本参考](https://github.com/cforth/cfexam/tree/master/tools/create_table.sql)。
 
-2. 修改源代码中数据库名称和用户密码。
+2. 根据需要修改源代码中数据库名称和用户密码。
 
 3. 打开网页，注册新的用户或登录。
 
