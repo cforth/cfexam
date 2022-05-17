@@ -16,7 +16,7 @@
 -- 表的结构 `duo` 多选题
 --
 
-CREATE TABLE IF NOT EXISTS `duo` (
+CREATE TABLE IF NOT EXISTS `tkt` (
   `id` int(255) NOT NULL AUTO_INCREMENT,
   `question` text NOT NULL,
   `answer` text NOT NULL,
